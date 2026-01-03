@@ -17,4 +17,13 @@
     .hamburger {
         display: none;
     }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: space-around;
+    }
 }

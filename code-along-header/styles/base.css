@@ -34,7 +34,7 @@ header span {
     color: #3D405B;
 }
 
-/* ------------------------- NAVIGATION ------------------------- */
+/* ------------------------- HAMBURGER ------------------------- */
 .hamburger {
     background: none;
     border: none;
@@ -51,4 +51,19 @@ header span {
 
 .hamburger.show::before {
     content: "\00D7";
+}
+
+
+/* ------------------------- NAVIGATION ------------------------- */
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation li {
+    height: 44px;
+    /* above: large enough for finger touch */
 }
