@@ -2,8 +2,19 @@
 /* terra cotta #E07A5F */
 /* deep slate blue #3D405B */
 
-/* ------------------------ SITE WIDE ----------------------------- */
+/* -------------------------(25) SITE WIDE ----------------------------- */
 * {
     font-family: "Josefin Sans", sans-serif;
     box-sizing: border-box;
+}
+
+
+/* ------------------------- HEADER  ------------------------- */
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+}
+
+header img {
+    display: block;
 }
