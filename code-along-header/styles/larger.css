@@ -24,6 +24,9 @@
 
     .navigation ul {
         display: flex;
-        justify-content: space-around;
     }
+}
+
+.navigation a {
+    border: none;
 }
