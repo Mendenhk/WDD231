@@ -1,14 +1,22 @@
 /* -------------------------25 - last checked ------------------------- WDD131-not checked*/
 /* -------------------------25 - Color Scheme choices (chatGTP) ------------------------- WDD131-not checked*/
+:root {
+ 
 /* Clean & Modern */
-/* Deep Navy #0F172A */
-/* Soft Gray #E5E7EB */
-/* Accent Blue #3B82F6 */
+/* Deep Navy */
+/* --base-color: #0F172A */
+/* Soft Gray */
+/* --top-color: #E5E7EB */
+/* Accent Blue */
+/* --Accent color: #3B82F6 */
 
 /* Warm & Inviting (great for lifestyle, blogs, wellness) */
-/* Warm Beige #F5F1EB */
-/* Terracotta #C26E4A */
-/* Charcoal #2E2E2E */
+/* Warm Beige */
+/* --base-color: #F5F1EB */
+/* Terracotta */
+/* --top-color: #C26E4A */
+/* Charcoal */
+/* --Accent color: #2E2E2E */
 
 /* Bold & Playful (startup / creative energy) */
 /* Indigo #4338CA */
@@ -24,6 +32,7 @@
 /* Forest Green #14532D */
 /* Sage #A7C7B7 */
 /* Cream #FBF7F2 */
+}
 
 /* -------------------------25 - SITE WIDE ------------------------- WDD131-not checked*/
 /* * {
