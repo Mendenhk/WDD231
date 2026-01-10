@@ -22,21 +22,31 @@
         display: block;
     }
 
-    .navigation ul {
-        display: flex;
-    }
+  .navigation ul {
+    display: flex;
+  }
 
-    .navigation a {
-    border: none;
-}
+  .navigation a {
+  border: none;
+  }
 
+  /* -------------------------25 -  MAIN GRID LAYOUT ------------------------- */
+  main {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+  }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+  h1 {
+    grid-column: span 2;
+  }
 
+  .certificate-section {
+    grid-column: span 2;
+  }
 
-
+  main p {
+    grid-column: span 2;
+    text-align: center;
+  }
 }
 
