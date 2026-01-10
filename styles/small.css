@@ -35,10 +35,11 @@
 }
 
 /* -------------------------25 - SITE WIDE ------------------------- WDD131-not checked*/
-/* * {
-  font-family: "Josefin Sans", sans-serif;
+* {
+/* google font */
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
-} */
+}
 
 /* -------------------------25 - HEADER  ------------------------- from WDD231-not checked*/
 header {
@@ -49,20 +50,18 @@ header {
   /* above: light gray */
   column-gap: 8px;
   /* above: small gap between grid cells */
-  align-items: end;
-  /* above: pushes items to the bottom */
+  align-items: center;
+  /* above: pushes items to the vertical center */
 }
 
 header img {
   display: block;
   width: 100%;
   height: auto;
-  padding-bottom: 3px;
 }
 
 header span {
   font-size: 1.2rem;
-  color: #3D405B;
 }
 
 /* -------------------------25 HAMBURGER ------------------------- from WDD231-not checked*/
