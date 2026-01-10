@@ -25,8 +25,18 @@
     .navigation ul {
         display: flex;
     }
-}
 
-.navigation a {
+    .navigation a {
     border: none;
 }
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+}
+

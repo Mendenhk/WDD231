@@ -113,9 +113,9 @@ header span {
   /* <a> elements default to inline */
   padding: 0.8rem 10px;
   /* above: large enough for finger touch (check with inspect-44px), and padding L/R to match header padding */
-  color: var(--top-color);;
+  color: var(--top-color);
   text-decoration: none;
-  border-bottom: solid 1px #ddd;
+  border: solid 1px lightgray;
   cursor: pointer;
 }
 
@@ -129,8 +129,34 @@ header span {
 }
 
 
-/* -------------------------25 -  BODY ------------------------- */
+/* -------------------------25 -  BODY AND SECTIONS ------------------------- */
+.section-header {
+  background-color: var(--Accent-color);
+  text-align: center;
+}
 
+.section-div {
+  background-color: var(--base-color);
+}
+
+.courses {
+  background-color: darkslategray;
+  text-align: center;
+  background-color: var(--base-color);
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 5px 0;
+}
+
+.certificate-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.course-button {
+  padding: 8px 50px;
+  background-color: var(--base-color);
+}
 
 
 
