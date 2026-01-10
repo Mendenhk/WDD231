@@ -3,19 +3,19 @@
  
 /* Clean & Modern */
 /* Deep Navy */
---base-color: #0F172A;
+/* --base-color: #0F172A; */
 /* Soft Gray */
---top-color: #E5E7EB;
+/* --top-color: #E5E7EB; */
 /* Accent Blue */
---Accent-color: #3B82F6;
+/* --Accent-color: #3B82F6; */
 
 /* Warm & Inviting (great for lifestyle, blogs, wellness) */
 /* Warm Beige */
-/* --base-color: #F5F1EB */
+--base-color: #F5F1EB;
 /* Terracotta */
-/* --top-color: #C26E4A */
+--top-color: #C26E4A;
 /* Charcoal */
-/* --Accent color: #2E2E2E */
+--Accent-color: #2E2E2E;
 
 /* Bold & Playful (startup / creative energy) */
 /* Indigo #4338CA */
@@ -41,6 +41,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--top-color);
 }
 
 /* -------------------------25 - HEADER  ------------------------- from WDD231-not checked*/
@@ -112,7 +113,7 @@ header span {
   /* <a> elements default to inline */
   padding: 0.8rem 10px;
   /* above: large enough for finger touch (check with inspect-44px), and padding L/R to match header padding */
-  color: #3D405B;
+  color: var(--top-color);;
   text-decoration: none;
   border-bottom: solid 1px #ddd;
   cursor: pointer;
@@ -128,6 +129,7 @@ header span {
 }
 
 
+/* -------------------------25 -  BODY ------------------------- */
 
 
 
@@ -140,7 +142,7 @@ body {
 }
 
 header {
-  background-color: var(--Accent-color);
+  background-color: var(--base-color);
   text-align: center;
 }
 
@@ -149,18 +151,16 @@ header {
 footer {
   grid-column: 1/4;
   place-items: center;
-  background-color: var(--Accent-color);
+  background-color: var(--base-color);
   color: white;
   padding: 1rem;
 }
 
 footer p {
   text-align: center;
-  color: white;
 }
 
 #lastModified {
   font-size: 14px;
-  color: yellow;
 }
 
