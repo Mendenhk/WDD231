@@ -79,10 +79,51 @@ const courses = [
 ]
 
 const coursesDiv = document.getElementById('courses');
+
 const allButton = document.getElementById('all-button');
 allButton.addEventListener('click', () => {
   coursesDiv.innerText = ``;
   for (const course of courses) {
+    const courseItem = document.createElement('div');
+    if (course.completed) {
+      courseItem.textContent = `✔️${course.subject}${course.number}`;
+    }
+    else {
+      courseItem.textContent = `${course.subject}${course.number}`;
+    }
+    coursesDiv.append(courseItem);
+  }
+});
+
+const cseButton = document.getElementById('CSE-button');
+cseButton.addEventListener('click', () => {
+  coursesDiv.innerText = ``;
+  const filteredCourses = courses.filter ((course) => {
+    return course.subject == 'CSE'
+  });
+    
+  const courseItem = document.createElement('div');
+  for (const course of filteredCourses) {
+    const courseItem = document.createElement('div');
+    if (course.completed) {
+      courseItem.textContent = `✔️${course.subject}${course.number}`;
+    }
+    else {
+      courseItem.textContent = `${course.subject}${course.number}`;
+    }
+    coursesDiv.append(courseItem);
+  }
+});
+
+const wddButton = document.getElementById('WDD-button');
+wddButton.addEventListener('click', () => {
+  coursesDiv.innerText = ``;
+  const filteredCourses = courses.filter ((course) => {
+    return course.subject == 'WDD'
+  });
+    
+  const courseItem = document.createElement('div');
+  for (const course of filteredCourses) {
     const courseItem = document.createElement('div');
     if (course.completed) {
       courseItem.textContent = `✔️${course.subject}${course.number}`;
