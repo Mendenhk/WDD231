@@ -1,4 +1,4 @@
-<!--  Next: -->
+<!--  Next: don't allow the all button to add multiple times-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="styles/larger.css">
   <script src="scripts/navigation.js" defer></script>
   <script src="scripts/dates.js" defer></script>
+  <script src="scripts/course.js" defer></script>
 </head>
 
 <body>
@@ -52,12 +53,12 @@
     <section class="certificate-section">
       <h2 class="section-header">Web Certificate Courses</h2>
       <div class="certificate-buttons">
-        <button class="course-button">All</button>
-        <button class="course-button">CSE</button>
-        <button class="course-button">WDD</button>
+        <button id="all-button" class="course-button">All</button>
+        <button id="CSE-button" class="course-button">CSE</button>
+        <button id="WDD-button" class="course-button">WDD</button>
       </div>
-      <div>
-        <div class="courses" id="courses">courses</div>
+      <div class="courses" id="courses">
+        <!-- this is the parent div to which javaScript adds child divs -->
       </div>
       <p>The total credits for the course listed above is #</p>
     </section>
