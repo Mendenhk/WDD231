@@ -100,6 +100,7 @@ allButton.addEventListener('click', () => {
     }
     else {
       courseItem.textContent = `${course.subject}${course.number}`;
+      courseItem.classList.add('needed');
       sumCredits += course.credits;
     }
     coursesDiv.append(courseItem);
@@ -125,6 +126,7 @@ cseButton.addEventListener('click', () => {
     }
     else {
       courseItem.textContent = `${course.subject}${course.number}`;
+      courseItem.classList.add('needed');
       sumCredits += course.credits;
     }
     coursesDiv.append(courseItem);
@@ -150,6 +152,7 @@ wddButton.addEventListener('click', () => {
     }
     else {
       courseItem.textContent = `${course.subject}${course.number}`;
+      courseItem.classList.add('needed');
       sumCredits += course.credits;
     }
     coursesDiv.append(courseItem);

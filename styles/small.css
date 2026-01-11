@@ -146,6 +146,11 @@ section {
   padding: 5px 0;
 }
 
+.courses .needed {
+  background-color: var(--section-header);
+  color: var(--white-text);
+}
+
 h2 {
   color: var(--white-text)
 }
