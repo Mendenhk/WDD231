@@ -55,6 +55,7 @@ header {
   /* above: small gap between grid cells */
   align-items: center;
   /* above: pushes items to the vertical center */
+  background-color: var(--base-color);
 }
 
 header img {
@@ -192,11 +193,6 @@ main p {
 
 body {
   margin: 1rem;
-}
-
-header {
-  background-color: var(--base-color);
-  text-align: center;
 }
 
 
