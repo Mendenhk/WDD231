@@ -149,7 +149,6 @@ section {
 }
 
 .courses div {
-  background-color: darkslategray;
   text-align: center;
   background-color: var(--base-color);
   border: 1px solid black;
