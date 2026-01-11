@@ -1,6 +1,27 @@
 /* -------------------------25 - Color Scheme choices (chatGTP) ------------------------- WDD131-not checked*/
 :root {
 
+  /* Backgrounds */
+  --bg-color: #F5F1EB;
+  /* Warm Beige — page background */
+  --header-footer: #7A3E2E;
+  /* Dark Terracotta */
+  --section-header: #C26E4A;
+  /* Terracotta for sections / cards */
+  --button-bg: #A0523D;
+  /* Deeper Terracotta for buttons */
+
+  /* Text */
+  --text-main: #F5F1EB;
+  /* Light text on dark backgrounds */
+  --text-muted: #E0D8D0;
+  /* Slightly darker for secondary text */
+  --section-title: #F5F1EB;
+  /* Light headers on terracotta backgrounds */
+  --white-text: #fff;
+  --light-text: #E0D8D0;
+  --dark-text: #7A3E2E;
+
   /* Clean & Modern */
   /* Deep Navy */
   /* --base-color: #0F172A; */
@@ -40,7 +61,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: var(--top-color);
+  /* color: var(--dark-text); */
 }
 
 /* -------------------------25 - HEADER  ------------------------- from WDD231-not checked*/
@@ -54,7 +75,8 @@ header {
   /* above: small gap between grid cells */
   align-items: center;
   /* above: pushes items to the vertical center */
-  background-color: var(--base-color);
+  background-color: var(--header-footer);
+  color: var(--light-text)
 }
 
 header img {
@@ -113,19 +135,20 @@ header span {
   /* <a> elements default to inline */
   padding: 0.8rem 10px;
   /* above: large enough for finger touch (check with inspect-44px), and padding L/R to match header padding */
-  color: var(--top-color);
+  color: var(--dark-text);
   text-decoration: none;
   border: solid 1px lightgray;
   cursor: pointer;
 }
 
 .navigation a:hover {
-  background-color: #E07A5F;
+  background-color: var(--section-header);
+  color: var(--light-text);
 }
 
 /* below: wayfinding effect-light grey background for a li element with a class of "current" */
 .navigation li.current {
-  background-color: #eee;
+  background-color: var(--bg-color);
 }
 
 
@@ -135,12 +158,12 @@ section {
 }
 
 .section-header {
-  background-color: var(--Accent-color);
+  background-color: var(--section-header);
   text-align: center;
 }
 
 .section-div {
-  background-color: var(--base-color);
+  background-color: var(--bg-color);
 }
 
 .courses {
@@ -150,10 +173,14 @@ section {
 
 .courses div {
   text-align: center;
-  background-color: var(--base-color);
+  background-color: var(--bg-color);
   border: 1px solid black;
   margin: 0.5rem;
   padding: 5px 0;
+}
+
+h2 {
+  color: var(--white-text)
 }
 
 .certificate-h2 {
@@ -167,7 +194,7 @@ section {
 
 .course-button {
   padding: 8px 40px;
-  background-color: var(--base-color);
+  background-color: var(--bg-color);
 }
 
 main p {
@@ -189,12 +216,25 @@ main p {
   display: block;
 }
 
+.bottom-p {
+  padding-top: 0.5rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  padding: 0 0.5rem;
+}
+
 /* -------------------------25 FOOTER ------------------------- */
 footer {
   grid-column: 1/4;
   place-items: center;
-  background-color: var(--base-color);
-  color: white;
+  background-color: var(--header-footer);
+  color: var(--light-text);
   padding: 1rem;
 }
 
