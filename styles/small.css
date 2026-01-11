@@ -98,11 +98,13 @@ header span {
   /* above: this font is used to increase the size of "x" */
   padding-bottom: 0.5rem;
   /* above: vertically centers the hamburger button */
+  color: var(--white-text)
 }
 
 .hamburger::before {
   content: "\2630";
   font-size: 2rem;
+  color: var(--white-text)
 }
 
 .hamburger.show::before {
