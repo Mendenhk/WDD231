@@ -189,11 +189,6 @@ main p {
   display: block;
 }
 
-body {
-  margin: 1rem;
-}
-
-
 /* -------------------------25 FOOTER ------------------------- */
 footer {
   grid-column: 1/4;
