@@ -10,7 +10,7 @@
     }
 
     header {
-        grid-template-columns: 24px auto;
+        grid-template-columns: 24px auto auto;
         /* above: removes 3rd column containing the hamburger */
         padding: 15px 0 15px 10px;
     }
