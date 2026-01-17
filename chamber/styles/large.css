@@ -1,39 +1,49 @@
 @media only screen and (min-width: 600px) {
 
-    header,
-    main,
-    nav,
-    footer {
-        max-width: 900px;
-        margin: 0 auto;
-        /* above: the margin written like this centers the contents */
-    }
+	header,
+	main,
+	nav,
+	footer {
+		max-width: 900px;
+		margin: 0 auto;
+		/* above: the margin written like this centers the contents */
+	}
 
-    header {
-        grid-template-columns: 24px auto auto;
-        /* above: removes 3rd column containing the hamburger */
-        padding: 15px 0 15px 10px;
-    }
+	header {
+		grid-template-columns: 24px auto auto;
+		/* above: removes 3rd column containing the hamburger */
+		padding: 15px 0 15px 10px;
+	}
 
-    .hamburger {
-        display: none;
-    }
+	.hamburger {
+		display: none;
+	}
 
-    .navigation {
-        display: block;
-        grid-column: 3/4;
-    }
+	.navigation {
+		display: block;
+		grid-column: 3/4;
+	}
 
-    .navigation ul {
-        display: flex;
-    }
+	.navigation ul {
+		display: flex;
+	}
 
-    .navigation a {
-        border: none;
-    }
+	.navigation a {
+		border: none;
+	}
 
-    /* -------------------------25 -  MAIN ------------------------- */
+	/* -------------------------25 -  MAIN ------------------------- */
 
+	/* -------------------------25 -  EVENTS & WEATHER SECTIONS ------------------------- */
+	.home {
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr;
+		gap: 0.5rem;
+		padding-bottom: 1rem;
+	}
 
+	h1 {
+		grid-column: 1/-1;
+	}
 
 }

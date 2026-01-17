@@ -149,6 +149,7 @@ img {
 .forecast {
   background-color: var(--section-bg);
   color: var(--white-text);
+  margin-bottom: 0.5rem;;
 }
 
 
