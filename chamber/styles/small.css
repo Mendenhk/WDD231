@@ -199,6 +199,7 @@ header span {
 
 .card .tagline {
   font-size: 0.8rem;
+  text-align: center;
   border-bottom: solid 1px black;
   grid-column: 1/-1;
   padding-bottom: 0.2rem;
@@ -236,8 +237,20 @@ footer {
   padding: 1rem;
 }
 
+footer ul {
+  list-style-type: none;
+}
+
 footer p {
   text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.social a {
+  padding: 0 0.5rem;
 }
 
 #lastModified {
