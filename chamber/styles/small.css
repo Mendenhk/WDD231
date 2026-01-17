@@ -3,7 +3,7 @@
 
   /* backgrounds */
   --header-section-hd: rgb(44, 39, 93);
-  --section-bg: rgb(133, 170, 194);
+  --section-bg: rgb(86 123 147);
   --footer: rgb(227, 243, 249);
 
 
@@ -215,7 +215,7 @@ header span {
 .card .tagline {
   font-size: 0.8rem;
   text-align: center;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px var(--white-text);
   grid-column: 1/-1;
   padding-bottom: 0.2rem;
 }
