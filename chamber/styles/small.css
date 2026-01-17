@@ -126,6 +126,14 @@ header span {
   height: 100%;
 }
 
+/* .cards {
+  max-width: 800px;
+  margin: 0 auto;
+  place-items: center;
+  justify-content: center;
+  padding: 1rem;
+} */
+
 /* -------------------------25 -  EVENTS & WEATHER SECTIONS ------------------------- */
 .home h2 {
   background-color: var(--header-section-hd);
@@ -171,7 +179,7 @@ header span {
 .cards {
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr; */
-      grid-template-columns: repeat(auto-fit, minmax(370px, 1rem));
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1rem));
   gap: 0.5rem;
   margin-top: 2rem;
 }
@@ -220,6 +228,7 @@ header span {
 
 /* -------------------------25 FOOTER ------------------------- */
 footer {
+  margin: 1rem 0;
   grid-column: 1/4;
   place-items: center;
   background-color: var(--footer);
