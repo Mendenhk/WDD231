@@ -170,10 +170,12 @@ header span {
 
 .weather svg {
   padding: 0.3rem;
+  grid-column: 1/2;
 }
 
 .weather p {
   line-height: 1.5rem;
+  grid-column: 2/3;
 }
 
 .forecast p {
