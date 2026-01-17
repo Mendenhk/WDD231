@@ -31,6 +31,7 @@
 		margin: 0 auto;
 		/* above: the margin written like this centers the contents */
 	}
+
 	/* -------------------------25 -  EVENTS & WEATHER SECTIONS ------------------------- */
 	.home {
 		display: grid;
@@ -48,6 +49,11 @@
 		grid-column: 1/-1;
 	}
 
+	/* -------------------------25 -  BUSINESS CARDS ------------------------- */
+	.cards {
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	}
+
 	/* -------------------------25 -  FOOTER ------------------------- */
 	footer {
 		margin-top: 1rem;
@@ -57,12 +63,5 @@
 
 	#cc-address {
 		justify-self: center;
-	}
-}
-
-/* -------------------------25 -  BUSINESS CARDS ------------------------- */
-@media (min-width: 600px) {
-	.cards {
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	}
 }
